@@ -1,0 +1,39 @@
+{
+  "name": "Fin",
+  "identifier": "de.beckers.fin.altstore",
+  "subtitle": "Jellyfin für iPhone und iPad",
+  "description": "Persönliche AltStore-Source für Fin. Jede Version entsteht automatisch aus einem Versions-Tag über GitHub Actions; AltStore signiert das IPA auf dem Gerät mit deiner Apple-ID.",
+  "website": "https://github.com/skyguy98/fin-altstore",
+  "tintColor": "#527AE6",
+  "nsfw": false,
+  "apps": [
+    {
+      "name": "Fin",
+      "bundleIdentifier": "de.beckers.fin",
+      "developerName": "Sebastian Becker",
+      "subtitle": "Jellyfin für iPhone und iPad",
+      "localizedDescription": "Native Jellyfin-App für iPhone und iPad: Browsing im Stil der TV-App, Wiedergabe mit AVPlayer (HLS, Untertitel, Kapitel, Intro überspringen), serverseitig komprimierte Downloads für unterwegs, automatische Umschaltung zwischen Heimnetz und Fernzugriff, Kindermodus, App-Sperre und optional Trakt.",
+      "iconURL": "https://raw.githubusercontent.com/skyguy98/fin-altstore/altstore/icon.png",
+      "tintColor": "#527AE6",
+      "category": "entertainment",
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Fin finds and connects to Jellyfin servers on your local network."
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "58",
+          "date": "2026-10-31T07:53:49Z",
+          "localizedDescription": "Fin 0.1.0\n\nErste Version über AltStore.",
+          "downloadURL": "https://github.com/skyguy98/fin-altstore/releases/download/v0.1.0/Fin.ipa",
+          "size": 5329295,
+          "sha256": "c94149d69b07c2b5f89d8de9a1b1622521a94b33d064cb042675089a9e7b628e",
+          "minOSVersion": "26.0"
+        }
+      ]
+    }
+  ]
+}
